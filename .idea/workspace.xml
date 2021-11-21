@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5a1fa65-c982-47ae-923c-338cb0b1ab68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1/5_Формат текста.html" beforeDir="false" afterPath="$PROJECT_DIR$/1/5_Формат текста.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637480064727</updated>
       <workItem from="1637480066271" duration="386000" />
+      <workItem from="1637481308083" duration="214000" />
     </task>
     <servers />
   </component>
@@ -67,6 +67,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="144" key="Vcs.Push.Dialog.v2" timestamp="1637480390364">
