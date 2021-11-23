@@ -14,7 +14,7 @@ p {
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px; /*Расстояние между символами*/
-    text-decoration: line-through; /*Перечеркивание*/
+    /*text-decoration: line-through; /*Перечеркивание*/
     text-transform: uppercase;
 }
 
