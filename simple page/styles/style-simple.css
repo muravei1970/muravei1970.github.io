@@ -9,6 +9,7 @@ body {
     width: 800px;
     margin: 20px auto;
 }
+/*Header*/
 .header {
     padding: 20px;
     background-color: #121212;
@@ -25,4 +26,17 @@ body {
     color: #56b6fb;
     text-align: center;
     font-weight: normal
+}
+/*Nav*/
+.nav {
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #121212;
+    text-decoration: none;
+}
+.nav-link:hover {
+    background-color: #eee;
 }
