@@ -4,11 +4,12 @@ body {
     font-size: 15px;
     line-height: 1.5;
     color: #121212;
-    background:url("../img/bg.png");
+    background: url("../img/bg.png");
 }
 .page {
     width: 800px;
     margin: 20px auto;
+    background-color: #fff;
 }
 /*Header*/
 .header {
@@ -40,4 +41,13 @@ body {
 }
 .nav-link:hover {
     background-color: #eee;
+}
+/*Content*/
+.content {
+    padding: 20px;
+}
+.content-title {
+    margin: 0;
+    font-size: 24px;
+    color: #ce2929;
 }
