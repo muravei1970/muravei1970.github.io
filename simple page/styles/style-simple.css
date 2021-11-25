@@ -80,8 +80,14 @@ body {
     color: inherit;
     text-decoration: underline;
 }
-
 .article-date {
     font-size: 12px;
     color: #a4a4a4;
+}
+/*Footer*/
+.footer {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
 }
