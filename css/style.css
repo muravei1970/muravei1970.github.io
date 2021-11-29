@@ -45,6 +45,7 @@ ol {
     margin-bottom: 15px;
 }
 .form-input {
+    display: block;
     padding: 5px;
     border: 1px solid #000;
     font-family: Arial, sans-serif;
