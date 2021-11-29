@@ -9,21 +9,27 @@
     <div class="form">
         <h1 class="title">Форма</h1>
         <form action="/" method="post">
-            <div class="form-group">
-                <label for="form-name">Ваше имя</label>
-                <input class="form-input" type="text" name="name" id="form-name">
-            </div>
-            <div class="form-group">
-                <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
-            </div>
-            <div class="form-group">
-                <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
-            </div>
-            <div class="form-group">
-                <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
-            </div>
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <div class="form-group">
+                    <label for="form-name">Ваше имя</label>
+                    <input class="form-input" type="text" name="name" id="form-name">
+                </div>
+                <div class="form-group">
+                    <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+                </div>
+                <div class="form-group">
+                    <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Пароль</legend>
+                <div class="form-group">
+                    <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+                </div>
+            </fieldset>
             <div  class="form-group">
-                <textarea class="form-textarea" name="text" placeholder="О Вас"></textarea>
+                <textarea class="form-textarea" name="text" placeholder="Бубен"></textarea>
             </div>
             <div class="form-group">
                 <select name="sity">
@@ -31,6 +37,22 @@
                     <option>Дayгaвпилc</option>
                 </select>
             </div>
+            <div class="form-group">
+                <label for="male">Муж</label>
+                <input type="radio" name="select_male" id="male">
+                <label for="female">Жен</label>
+                <input type="radio" name="select_male" id="female">
+            </div>
+            <div class="form-group">
+                <label for="photo">Фото</label>
+                <input type="file" name="photo" id="photo">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="rules_agree" id="rules_agree">
+                <label for="гules_agгee">Пpoчитaл условия и согласен с ними</label>
+            </div>
+            <button type="submit">Oтправить</button>
+            <button type="reset">Очистить</button>
         </form>
     </div>
 </body>
