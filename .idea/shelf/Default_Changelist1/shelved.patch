@@ -1,0 +1,17 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n    <title>Web-1</title>\r\n</head>\r\n<body>\r\n    <ul>\r\n        <li><a href=\"1/5_Формат текста.html\">Формат текста</a></li>\r\n        <li><a href=\"doc/Index.docx\" target=\"_blank\">Word</a></li>\r\n        <li><a href=\"1/11_Таблицы.html\">Таблицы</a></li>\r\n        <li><a href=\"simple page/index-simple.html\">Простая страница</a></li>\r\n        <li><a href=\"form.html\">Форма</a></li>\r\n        1\r\n    </ul>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 640bade03040dfebc328d6b4bd6ee7d036964610)
++++ index.html	(date 1638178024882)
+@@ -12,7 +12,6 @@
+         <li><a href="1/11_Таблицы.html">Таблицы</a></li>
+         <li><a href="simple page/index-simple.html">Простая страница</a></li>
+         <li><a href="form.html">Форма</a></li>
+-        1
+     </ul>
+ </body>
+ </html>
