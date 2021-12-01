@@ -70,6 +70,9 @@ ol {
     border: 1px solid #000;
     font-family: Arial, sans-serif;
     font-size: 15px;
+    outline-width: 5px; 
+    outline-style: dotted; 
+    outline-color: red;
 }
 .form-textarea:focus {
     outline: none;
