@@ -2,8 +2,9 @@ body {
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    color: #333;
-    background: #eee url("../img/pattern.png");
+    color: #fff;
+    background-color: #1D24BB;
+/*    background: #eee url("../img/pattern.png");*/
     background-size: 200px 200px;
 }
 p {
@@ -80,7 +81,7 @@ ol {
 }
 /*Ссылка*/
 .link {
-    color: #1d76dd;
+    color: #EEFFEB;
     text-decoration: none;
 }
 .link:visited {
@@ -112,4 +113,7 @@ ol {
 }
 .btn:active {
     background-color: #2c760a;
+}
+.main-page a{
+    color: white
 }
