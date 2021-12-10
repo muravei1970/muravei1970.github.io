@@ -1,11 +1,38 @@
 body {
     margin: 0;
 }
+.modal {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+    background-color: #eee;
+}
+.modal-title {
+    margin: 0;
+}
 .square {
     width: 50px;
     height: 50px;
     background-color: #333;
     position: absolute;
-    top: 50px;
+    top: 150px;
     left: 50px;
+    z-index: 1;
+}
+.square.red {
+    background-color: #d41717;
+    top: 170px;
+    z-index: 2;
+}
+.square-fixed {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-color: #1165ad;
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
